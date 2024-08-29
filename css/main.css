@@ -8,3 +8,234 @@ h1 {
   font-size: var(--text-3xl);
   font-weight: var(--font-bold);
 }
+
+.cart {
+  background-color: var(--rose-50);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  position: absolute; 
+  top: 20px;
+  right: 20px;
+}
+
+.cart h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(red);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.remove-item {
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+
+.product-card {
+  background-color: var(--rose-50);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  margin: 15px;
+  position: relative;
+}
+.product-image {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.add-to-cart {
+  background-color: var(--rose-50);
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: bold;
+}
+.add-to-cart:hover {
+  background-color: var(red);
+}
+.product-info {
+  padding: 10px;
+}
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.product-price {
+  color: #b12704;
+  font-size: 16px;
+}
+
+.product-card1 {
+  background-color: var(--rose-50);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  margin: 15px;
+  position: relative;
+}
+
+.product-image1{
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.add-to-cart1{
+  background-color: var(--rose-50);
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.add-to-cart1:hover {
+  background-color: var(--rose-50);
+}
+
+.product-info1 {
+  padding: 10px;
+}
+.product-title1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.product-price1 {
+  color: #b12704;
+  font-size: 16px;
+}
+
+.product-card2{
+  background-color: var(--rose-50);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  margin: 15px;
+  position: relative;
+}
+
+.product-image2{
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.add-to-cart2{
+  background-color: var(--rose-50);
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.add-to-cart2:hover {
+  background-color: var(--rose-50);
+}
+
+.product-info2 {
+  padding: 10px;
+}
+.product-title2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.product-price2 {
+  color: #b12704;
+  font-size: 16px;
+}
+
+.product-card3{
+  background-color: var(--rose-50);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  margin: 15px;
+  position: relative;
+}
+
+.product-image3{
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.add-to-cart3{
+  background-color: var(--rose-50);
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.add-to-cart3:hover {
+  background-color: var(--rose-50);
+}
+
+.product-info3 {
+  padding: 10px;
+}
+.product-title3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.product-price3 {
+  color: #b12704;
+  font-size: 16px;
+}

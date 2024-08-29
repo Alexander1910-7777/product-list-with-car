@@ -5,27 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
     <title>Frontend Mentor | Product list with cart</title>
     <link rel="stylesheet" href="css/index.css" />
   </head>
-  </script>
   <body>
+
     <h1>Dessert</h1>
-    <div class="card-product">
-      <img
-        src="./assets/images/image-waffle-desktop.jpg"
-        alt="profile"
-        width="150px"
-        height="150px"
-      />
-      <button>Add to Cart</button>
+    <br>
+
+    <div class="product-container">
+    <div class="product-card">
+      <img src="./assets/images/image-waffle-desktop.jpg" alt="profile" class="product-image">
+      <button class="add-to-cart">🛒 Add to Cart</button>
+      <div class="product-info">
+          <h3 class="product-title">Waffle with <br> Berries</h3>
+          <p class="product-price">$6.50</p>
+      </div>
     </div>
-  </body>
+  
+    <div class="product-card1">
+      <img src="./assets/images/image-creme-brulee-desktop.jpg" alt="profile" class="product-image1">
+      <button class="add-to-cart1">🛒 Add to Cart</button>
+    <div class="product-info1">
+        <h3 class="product-title1">Vainilla Bean Creme Brulée</h3>
+        <p class="product-price1">$7.00</p>
+      </div>
+    </div>
+
+    <div class="product-card2">
+      <img src="./assets/images/image-macaron-desktop.jpg" alt="profile" class="product-image2">
+      <button class="add-to-cart2">Add to Cart</button>
+      <div class="product-info2">
+          <h3 class="product-title2">Macaron Mix of <br> Five</h3>
+          <p class="product-price2">$8.00</p>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="product-card3">
+      <img src="./assets/images/image-tiramisu-desktop.jpg" alt="profile" class="product-image3">
+      <button class="add-to-cart3">Add to Cart</button>
+      <div class="product-info3">
+          <h3 class="product-title3">Classic Tiramisu <br> God</h3>
+          <p class="product-price3">$5.50</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="./assets/images/image-baklava-desktop.jpg" alt="profile" class="product-image">
+      <button class="add-to-cart">🛒 Add to Cart</button>
+      <div class="product-info">
+          <h3 class="product-title">Pistachio Baklava <br> Paris</h3>
+          <p class="product-price">$4.00</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="./assets/images/image-meringue-desktop.jpg" alt="profile" class="product-image">
+      <button class="add-to-cart">🛒 Add to Cart</button>
+      <div class="product-info">
+        <h3 class="product-title">Lemon Meringue <br> Pie</h3>
+        <p class="product-price">$5.00</p>
+      </div>
+    </div>
+
+    <br><br>
+    <div class="product-card">
+      <img src="./assets/images/image-cake-desktop.jpg" alt="profile" class="product-image">
+      <button class="add-to-cart">🛒 Add to Cart</button>
+      <div class="product-info">
+        <h3 class="product-title">Red Velvet <br> Cake</h3>
+        <p class="product-price">$4.50</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="./assets/images/image-brownie-desktop.jpg" alt="profile" class="product-image">
+      <button class="add-to-cart">🛒 Add to Cart</button>
+      <div class="product-info">
+        <h3 class="product-title">Salted Caramel <br> Brownie</h3>
+        <p class="product-price">$5.50</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="./assets/images/image-panna-cotta-desktop.jpg" alt="profile" class="product-image">
+      <button class="add-to-cart">🛒 Add to Cart</button>
+      <div class="product-info">
+        <h3 class="product-title">Vanilla Pana <br> Cotta</h3>
+        <p class="product-price">$6.50</p>
+      </div>
+    </div>
+
+    <!-- Contenedor para la boleta -->
+    <div id="cart" class="cart">
+      <h2>Your Cart (0)</h2>
+      <div id="cart-items"></div>
+      <h3>Total: <span id="order-total">$0.00</span></h3>
+  </div>
+
+  <script src="Js/boleta.js"></script>
+</body>
 </html>
